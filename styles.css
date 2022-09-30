@@ -1,0 +1,66 @@
+ul{
+    display: flex;
+    list-style: none;
+}
+.ul1{
+    padding-left: 20px;
+}
+.ul2{
+    padding-left: 20px;
+}
+.ul3{
+    padding-left: 20px;
+}
+.ul4{
+    padding-left: 20px;
+}
+ol{
+    display: flex;
+    list-style: none;
+}
+.ol1{
+    padding-left: 20px;
+}
+.ol2{
+    padding-left: 20px;
+}
+.ol3{
+    padding-left: 20px;
+}
+.img{
+    width: 150px;
+    padding-top: 10px;
+}
+.title{
+    display: flex;
+    margin: 10px;
+}
+.games{
+    display: flex;
+    margin-left: 9px;
+    justify-content: space-around;
+}
+.game1{
+border: solid 3px black;
+}
+.game-title{
+    padding-left: 29px;
+}
+.rrp{
+    padding-left: 29px;
+}
+.game2{
+    border: solid 3px black;
+    }
+.game3{
+     border: solid 3px black;
+ }
+ .game4{
+    border: solid 3px black;
+}
+.saving{
+    color: rgba(52, 189, 24, 0.968);
+}
+
+
+
