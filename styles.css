@@ -75,9 +75,6 @@ a{
     padding-top: 16px;
 }
 @media screen and (min-width:290px) and (max-width: 844px) {
-    body {
-      background-color: cyan;
-    }
     .ul1{
         border: solid black 3px;
         justify-content: space-between;
