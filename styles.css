@@ -39,9 +39,14 @@ ol{
     display: flex;
     margin-left: 9px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
-.game1{
+img{
+width: 200px;
+}
+.game{
 border: solid 3px black;
+margin-bottom: 20px;
 }
 .game-title{
     padding-left: 29px;
@@ -61,6 +66,62 @@ border: solid 3px black;
 .saving{
     color: rgba(52, 189, 24, 0.968);
 }
-
+.aaa{
+    display: flex;
+}
+.ol{
+    display: flex;
+}
+.ol3{
+    margin-left: 10px;
+}
+a{
+    padding-top: 16px;
+}
+@media screen and (min-width:290px) and (max-width: 844px) {
+    body {
+      background-color: cyan;
+    }
+    .ul1{
+        border: solid black 3px;
+        justify-content: space-between;
+    }
+    .ul2{
+        border: solid black 3px;
+        justify-content: space-between;
+    }
+    .ul3{
+        border: solid black 3px;
+        justify-content: space-between;
+    }
+    .ul4{
+        border: solid black 3px;
+        justify-content: space-between;
+    }
+    #se{
+        font-size: 20px;
+        border-right:none;
+        border: solid rgb(0, 0, 0) 1px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #fa{
+        padding-left: 20%;
+    }
+    .aaa{display: block;}
+    .ol{
+        display: flex;
+    }
+    .ol3{
+        margin-left: 10px;
+    }
+    a{
+        padding-top: 16px;
+    }
+}
+@media print {
+    header{display: none;
+    }
+ }
 
 
