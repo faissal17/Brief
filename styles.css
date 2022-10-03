@@ -31,10 +31,6 @@ ol{
     width: 150px;
     padding-top: 10px;
 }
-.title{
-    display: flex;
-    margin: 10px;
-}
 .games{
     display: flex;
     margin-left: 9px;
